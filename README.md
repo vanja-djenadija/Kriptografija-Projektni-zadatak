@@ -18,13 +18,14 @@ Nakon prijave na sistem, korisniku se prikazuju izabrana pitanja, redom. Na kraj
 ukupan rezultat. Rezultati svih korisnika se čuvaju u zasebnoj tekstualnoj datoteci, u 
 formatu: KORISNIČKO_IME VRIJEME REZULTAT. Sadržaj ove datoteke mogu 
 da vide samo prijavljeni korisnici, u okviru aplikacije.
+
 Potrebno je uspostaviti infrastrukturu CA tijela korištenjem OpenSSL-a ili nekog drugog 
 alata na sljedeći način:
-• CA tijelo je implementirano u dva nivoa. U prvom nivou se nalazi ROOT CA, koji je 
+- CA tijelo je implementirano u dva nivoa. U prvom nivou se nalazi ROOT CA, koji je 
 odgovoran za potpisivanje samo 2 sertifikata za podređena CA tijela.
-• Podređena CA tijela se koriste (nasumično) za izdavanje digitalnih sertifikata za 
+- Podređena CA tijela se koriste (nasumično) za izdavanje digitalnih sertifikata za 
 učesnike kviza.
-• Podređena CA tijela izdaju i CRL liste za svoje sertifikate. Smatrati da će, kao i 
+- Podređena CA tijela izdaju i CRL liste za svoje sertifikate. Smatrati da će, kao i 
 sertifikati, aktuelna CRL lista biti dostupna aplikaciji na fajl sistemu na proizvoljnoj 
 lokaciji. Korisnik ima pravo da učestvuje tri puta u kvizu (tri prijave u aplikaciju). Nakon 
 trećeg učešća, korisnički sertifikat se automatski povlači, a razlog je „prestanak rada“.
@@ -32,6 +33,7 @@ Steganografski algoritam definisati na proizvoljan način, ali tako da kvalitet 
 minimalno narušen. Obratiti pažnju na brzinu aplikacije, u smislu ispravnog korištenja 
 simetričnih i asimetričnih algoritama (iskoristiti onaj algoritam koji će u datom slučaju dati 
 najbolje performanse, a da sigurnost sistema nije narušena).
+
 Sve detalje zadatka koji nisu precizno specifikovani realizovati na proizvoljan način. 
 Dozvoljena je upotreba proizvoljnog programskog jezika i odgovarajuće biblioteke za 
 realizaciju kriptografskih funkcija (npr. Bouncy Castle). Način realizacije korisničkog 
