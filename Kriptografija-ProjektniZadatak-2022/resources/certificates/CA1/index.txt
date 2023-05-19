@@ -1,0 +1,6 @@
+V	230205173921Z		01	unknown	/C=BA/ST=RS/O=Elektrotehnicki fakultet/OU=CA_Vanja/CN=VANJA
+R	230407120943Z	220407163418Z,cessationOfOperation	02	unknown	/C=BA/ST=RS/O=Elektrotehnicki fakultet/OU=CA_Vanja/CN=admin@gmail.com
+R	230407123358Z	220407164145Z,cessationOfOperation	03	unknown	/C=BA/ST=RS/O=Elektrotehnicki fakultet/OU=CA_Vanja/CN=vanja@email.com
+V	230407164923Z		04	unknown	/C=BA/ST=RS/O=Elektrotehnicki fakultet/OU=CA_Vanja/CN=aco@gmail.com
+R	230407165048Z	220407165740Z,cessationOfOperation	05	unknown	/C=BA/ST=RS/O=Elektrotehnicki fakultet/OU=CA_Vanja/CN=dusko@gmail.com
+R	230407165214Z	220407165433Z,cessationOfOperation	06	unknown	/C=BA/ST=RS/O=Elektrotehnicki fakultet/OU=CA_Vanja/CN=ana@gmail.com

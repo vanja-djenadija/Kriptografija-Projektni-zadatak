@@ -1,0 +1,2 @@
+V	220804173848Z		01	unknown	/C=BA/ST=RS/O=Elektrotehnicki fakultet/OU=CA_Vanja/CN=CA1
+V	220804173900Z		02	unknown	/C=BA/ST=RS/O=Elektrotehnicki fakultet/OU=CA_Vanja/CN=CA2
